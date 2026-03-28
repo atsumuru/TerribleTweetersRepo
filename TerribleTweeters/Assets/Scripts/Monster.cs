@@ -4,6 +4,7 @@ public class Monster : MonoBehaviour
 {
 
     [SerializeField] Sprite _deadSprite;
+    [SerializeField] ParticleSystem _deathEffect;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -27,6 +28,7 @@ public class Monster : MonoBehaviour
     void Die ()
     {
         GetComponent<SpriteRenderer>().sprite = _deadSprite;
+        _deathEffect.Play();
         //gameObject.SetActive(false);
     }
 
