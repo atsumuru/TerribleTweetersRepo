@@ -128,11 +128,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 101826726}
+  - component: {fileID: 101826730}
   - component: {fileID: 101826725}
   - component: {fileID: 101826727}
   - component: {fileID: 101826728}
   - component: {fileID: 101826729}
-  - component: {fileID: 101826730}
   m_Layer: 0
   m_Name: RedBird
   m_TagString: Untagged
@@ -163,7 +163,7 @@ SpriteRenderer:
   m_SmallMeshCulling: 1
   m_ForceMeshLod: -1
   m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
