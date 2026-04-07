@@ -44,6 +44,8 @@ public class Bird : MonoBehaviour
         _sprite.color = Color.white;
 
         isDragging = false;
+
+        GetComponent<AudioSource>().Play();
     }
 
     private void OnMouseDrag()
