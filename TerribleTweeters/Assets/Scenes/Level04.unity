@@ -1380,7 +1380,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 804734165912286718, guid: 363ac2adccc3b894ba9490cd1ae29e69, type: 3}
       propertyPath: _nextLevelName
-      value: Level05
+      value: Credits
       objectReference: {fileID: 0}
     - target: {fileID: 5313777579712873285, guid: 363ac2adccc3b894ba9490cd1ae29e69, type: 3}
       propertyPath: m_Name
